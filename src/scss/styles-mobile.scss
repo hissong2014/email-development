@@ -1,0 +1,37 @@
+@media only screen and (max-width:700px){
+
+  //E-ALERT HEADER
+    .e-alert-header{
+      width:100%;
+      height:auto;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+  table{
+    width:100%;
+  }
+
+  .left-center{
+    text-align: center!important;
+  }
+  .right-center{
+    text-align: center!important;
+  }
+
+  // STYLES FOR SHOW - HIDE IN MOBILE OR DESKTOP
+  .desktop-wrapper{
+    display:none !important;
+    visibility:hidden !important;
+  }
+  .mobile-wrapper{
+    width:100% !important;
+    display:table !important;
+    visibility:visible !important;
+    overflow: visible !important;
+    max-height:none !important;
+    font-size:100% !important;
+  }
+
+}

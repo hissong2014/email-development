@@ -1,0 +1,29 @@
+
+@import 'reset';
+@import 'variables';
+
+
+p{
+  font-family:$sanSerif;
+  font-size:$mainFontSize;
+}
+sup{
+  font-size:70%;
+  line-height:0;
+}
+
+.left-center{
+  text-align: left;
+}
+
+.right-center{
+  text-align: right;
+}
+
+.mobile-wrapper{
+  display:none;
+  visibility:hidden;
+  overflow:hidden;
+  max-height:0px;
+  font-size:0px;
+}

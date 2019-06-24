@@ -1,0 +1,31 @@
+<!-- The Audience is {{audience}} -->
+<head>
+  <meta name="status" content="jhi-status-served" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- These Styles will be inlined -->
+  <link rel="stylesheet" type="text/css" href="styles-inline.css">
+  <!-- These styles will be embedded -->
+  <link rel="stylesheet" type="text/css" href="styles-mobile.css" data-embed>
+  <title>Subject inline</title>
+
+  <!--[if gte mso 9]>
+    <style>
+      sup { font-size: 100% !important; }
+    </style>
+  <![endif]-->
+
+</head>
+<body>
+<center>
+
+   <table class="email-container" width="600">
+    <tbody>
+      <tr>
+        <td class="email-body">{% block content %} {% endblock %}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</center>
+</body>
